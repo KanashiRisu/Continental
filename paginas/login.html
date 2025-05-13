@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style2.css">
+    <script src="https://kit.fontawesome.com/b0fbce6f8a.js" crossorigin="anonymous"></script>
     <title>Continental Login</title>
 </head>
 <body style="background: url(../images/login.background.png) no-repeat left top; background-size: cover;">
@@ -19,9 +20,12 @@
             <p>Aproveite as melhores viagens com os<br>melhores preços na Continental</p>
         </div>
         <div class="content">
-            <fieldset>
+        
+            <fieldset style="margin-top: 125px;">
                 <form action="get" method="post">
-                    <h1>Login</h1>
+                    <label for="">
+                        <h1>Login</h1>
+                    </label>
                     <input type="email" placeholder="Email" id="email" class="input-destino" required>
                     <input type="password" placeholder="Senha" id="senha" class="input-destino" required>
                     <label for="lembrar">
@@ -32,14 +36,15 @@
                     <a href="#"><p>Esqueceu a Senha?</p></a>
                     <p>Não tem uma conta? <a href="/paginas/cadastro.html">Cadastre-se!</a></p>
                 </form>
-                <div class="social-login">
+
                     <label for="login-alt">
                         <h1>Logar com</h1>
                     </label>
-                    <button class="btn-google">Google</button>
-                    <button class="btn-facebook">Facebook</button>
-                    <button class="btn-instagram">Instagram</button>
-                </div>
+                    <div class="social-login">
+                        <button class="btn-google"><i class="fa-brands fa-google"></i></button>
+                        <button class="btn-facebook"><i class="fa-brands fa-facebook"></i></button>
+                        <button class="btn-instagram"><i class="fa-brands fa-instagram"></i></button>
+                    </div>
             </fieldset>
         </div>
     </section>

@@ -103,11 +103,11 @@ input[type="checkbox"]{
     width: 16px;
     height: 16px;
     margin: 10px 0;
+    cursor: pointer;
 }
 .social-login{
     display: flex;
     padding: 10px;
-    justify-content: space-between;
     justify-content: space-around;
     margin: 10px 0;
 }
