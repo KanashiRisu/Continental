@@ -7,8 +7,6 @@
 body{
     background-color: #f4f4f4;
     font-size: 16px;
-    background: url(../images/login.background.png) no-repeat left top;
-    background-size: cover;
 }
 footer{
     margin-top: 130px;
@@ -48,8 +46,7 @@ header h3:hover{
 fieldset{
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.3);
-    width: 520px;
-    height: 620px;
+    width: 530px;
     display: flex;
     flex-direction: column;
     border: 2px solid #ffffff;
@@ -72,6 +69,14 @@ input{
     border: 2px solid #ffffff;
     background-color: rgba(0, 0, 0, 0.2);
     color: #ffffff;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+::placeholder{
+    color: #c9c9c9;
 }
 button{
     margin: 10px 0;
@@ -110,9 +115,17 @@ input[type="checkbox"]{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 .bemvindo h1{
     font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.bemvindo p{
+    font-size: 28px;
     font-weight: bold;
     color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
