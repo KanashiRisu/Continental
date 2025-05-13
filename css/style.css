@@ -57,7 +57,7 @@ main{
     flex-direction: column;
 }
 .text-logo{
-    font-size: 55px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
     color: #f4f4f4;
@@ -135,4 +135,18 @@ section{
     0%{opacity: 1;}
     50%{opacity: 0;}
     100%{opacity: 1;}
+}
+input[type="text"]{
+    border: none;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
