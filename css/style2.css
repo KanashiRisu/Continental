@@ -106,10 +106,14 @@ input[type="checkbox"]{
 }
 .social-login{
     display: flex;
-    flex-direction: column;
     padding: 10px;
     justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 0;
+}
+.social-login button{
+    width: 50px;
+    transform: scale(1.4);
 }
 .bemvindo{
     display: flex;
@@ -128,4 +132,8 @@ input[type="checkbox"]{
     font-weight: bold;
     color: #ffffff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+label{
+    align-self: center;
+    
 }
