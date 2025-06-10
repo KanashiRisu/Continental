@@ -7,7 +7,7 @@
 body{
     background-color: #f4f4f4;
     font-size: 16px;
-    background: url(../images/home.background.png) no-repeat right top fixed;
+    background: url(../images/homeBackground.png) no-repeat right top fixed;
     background-position: center;
     background-size: cover;
 }
@@ -24,14 +24,17 @@ header a{
     color: #f4f4f4;
 }
 header h3{
-    padding: 12px;
-    border: 2px solid #f4f4f400;
+    padding: 9px;
+
+    background-size: 0 2px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #ffffff, #f4f4f4);
     transition: all 0.5s ease;
-    border-radius: 12px;
     
 }
 header h3:hover{
-    border: 2px solid #f4f4f4;
+    background-size: 100% 2px;
     cursor: pointer;
 }
 footer{
@@ -44,12 +47,18 @@ footer{
 }
 
 .btn-cadastro{
+    background-size: 0 3px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #ffffff, #f4f4f4);
     border: 2px solid #f4f4f4;
     cursor: pointer;
     transition: all 0.5s;
+    border-radius: 12px;
 }
 .btn-cadastro:hover{
     background-color: #f4f4f4;
+    background-size: 0% 3px;
     color: #000;
 }
 main{
