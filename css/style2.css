@@ -102,7 +102,7 @@ input:focus{
     background-color: rgba(0, 0, 0, 0.3);
 }
 ::placeholder{
-    color: #efefef;
+    color: rgba(239, 239, 239, 0.7);
 }
 button{
     margin: 10px 0;
