@@ -17,9 +17,11 @@
     top: 0;
     left: 0;
     padding: 20px;
+    
 }
 .sidebar h1{
     font-weight: 500;
+    margin: 15px;
 }
 .sidebar li{
     width: 100%;;
@@ -30,6 +32,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 16px;
+    font-size: 18px;
 }
 .sidebar a{
     text-decoration: none;
@@ -46,4 +49,9 @@
 .grande{
     background-color: #d3cfcf;
     min-height: 1000vh;
+}
+
+.btnsair{
+    margin-top: 120px;
+    min-width: 200px;
 }
